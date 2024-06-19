@@ -1,0 +1,39 @@
+mysql> drop table user;
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> create table user (
+    -> uid int auto increment,
+    -> uname varchar(32),
+    -> uloc varchar(32),
+    -> primary key(uid)
+    -> ) auto increment=1000;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'auto increment,
+uname varchar(32),
+uloc varchar(32),
+primary key(uid)
+) auto inc' at line 2
+mysql> create table user ( uid int auto_increment, uname varchar(32), uloc varchar(32), primary key(uid) ) auto_increment=1000;
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> insert into user values(1,'harsha','bang');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> select * from user;
++-----+--------+------+
+| uid | uname  | uloc |
++-----+--------+------+
+|   1 | harsha | bang |
++-----+--------+------+
+1 row in set (0.00 sec)
+
+mysql> show tables;
++--------------------+
+| Tables_in_business |
++--------------------+
+| bunit              |
+| employee           |
+| user               |
++--------------------+
+3 rows in set (0.01 sec)
+
+mysql> 
