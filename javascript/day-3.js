@@ -62,6 +62,3 @@ greeting ="godd night";
 }
 
 console.log(greeting);
-
-
-let a=
