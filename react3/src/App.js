@@ -1,13 +1,13 @@
-import logo from './logo.svg';
+/* import img from './img.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={img} className="App-logo" alt="img" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+         Hi  Anju <br></br>
         </p>
         <a
           className="App-link"
@@ -20,6 +20,22 @@ function App() {
       </header>
     </div>
   );
-}
+} */
 
+  import React from 'react';
+  import './App.css';
+  import img from './img.jpg';
+  import header from './header';
+  import footer from './footer';
+  import slider from './slider';
+  function App(){
+    return <div>
+      <h1>App component </h1>
+      <hr></hr>
+      <header></header>
+      <header/>
+      <slider/>
+      <footer/>
+      </div>
+  }
 export default App;
