@@ -25,6 +25,8 @@ function App() {
   import React from 'react';
   import './App.css';
   import img from './img.jpg';
+  import Msg from './msg';
+  import LS from './ls';
   import header from './header';
   import footer from './footer';
   import slider from './slider';
@@ -32,6 +34,10 @@ function App() {
     return <div>
       <h1>App component </h1>
       <hr></hr>
+      <img src={img} className="App-logo" alt="img" />
+      <Msg />
+      <hr></hr>
+      <LS />
       <header></header>
       <header/>
       <slider/>
