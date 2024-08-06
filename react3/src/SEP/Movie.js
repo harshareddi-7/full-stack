@@ -8,6 +8,6 @@ function Movie(){
     <h3>Movie Name:{Movie_Name}</h3>
     <h2>Hero Name:{Hero_Name}</h2>
     <h2>Story:{Story}</h2>
-    <</>
+    </>
 }
 export default Movie 
