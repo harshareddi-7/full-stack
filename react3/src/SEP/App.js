@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./Header";
 import Slider from "./Slider";
 import Footer from "./Footer";
-import img from "/Users/harshareddy/Documents/full stack/react3/src/img.jpg";
+// import img from "/Users/harshareddy/Documents/full stack/react3/src/img.jpg";
 import Movie from "./Movie";
 
 class App extends React.Component{
@@ -16,6 +16,7 @@ class App extends React.Component{
         <hr/>
         <Footer />
         <hr/>
+        <Movie />
         <Movie/>
        </>
 }
