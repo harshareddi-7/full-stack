@@ -6,6 +6,7 @@ import Footer from "./Footer";
 import Movie from "./Abc";
 import Movies from "./Movies";
 import Navbar from "./Navbar";
+import CompA from "../PropsEx/CompA";
 
 class App extends React.Component{
     render(){
@@ -25,6 +26,7 @@ class App extends React.Component{
         <hr/>
         <button class="btn btn-primary">test</button>
         <hr/>
+        <CompA/>
        </>
 }
 }

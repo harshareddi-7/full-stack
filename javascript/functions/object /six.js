@@ -30,4 +30,5 @@ if (Object.keys(emp).length>0){
 
 // 
 // 
-let len1= Object.keys(user).length >0f
+let len1= Object.keys(user).length >0 ? console.log("not empty") : console.log("empty");
+console.log(len1);
