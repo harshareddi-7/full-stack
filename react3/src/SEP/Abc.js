@@ -1,4 +1,5 @@
 function Movie(){
+    // alert("hi")
     let Movie_Name="Y s";
     let Hero_Name="Vd,Nani";
     let Story="Feel Good Movie";
@@ -8,6 +9,10 @@ function Movie(){
     <h3>Movie Name:{Movie_Name}</h3>
     <h2>Hero Name:{Hero_Name}</h2>
     <h2>Story:{Story}</h2>
+    <hr/>
+    <img src={image} alt="Movie Image"/>
+    <hr/>
+    <button className="btn btn-primary">Test</button>
     </>
 }
 export default Movie 
