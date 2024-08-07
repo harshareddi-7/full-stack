@@ -30,6 +30,7 @@ function App() {
   import header from './header';
   import footer from './footer';
   import slider from './slider';
+  import CompA from './src/PropsEx/Compa.jsx';
   function App(){
     return <div>
       <h1>App component </h1>
@@ -42,6 +43,7 @@ function App() {
       <header/>
       <slider/>
       <footer/>
+      <CompA />
       </div>
   }
 export default App;
